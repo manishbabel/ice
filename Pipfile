@@ -10,6 +10,8 @@ pytest-cov = "*"
 [packages]
 ice = {editable = true,path = "."}
 pset-utils = {editable = true,git = "https://github.com/csci-e-29/2019sp-pset-utils-manishbabel"}
+dask = {extras = ["dataframe"],version = "*"}
+django = "*"
 
 [requires]
 python_version = "3.7"
