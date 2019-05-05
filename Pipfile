@@ -4,14 +4,17 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-pytest = "*"
-pytest-cov = "*"
 
 [packages]
 ice = {editable = true,path = "."}
 pset-utils = {editable = true,git = "https://github.com/csci-e-29/2019sp-pset-utils-manishbabel"}
-dask = {extras = ["dataframe"],version = "*"}
+psycopg2-binary = "*"
+redis = "*"
 django = "*"
+pytest = "*"
+seaborn = "==0.9.0"
+matplotlib = "*"
+sqlalchemy = "*"
 
 [requires]
 python_version = "3.7"
